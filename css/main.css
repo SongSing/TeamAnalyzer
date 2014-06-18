@@ -1,0 +1,179 @@
+body
+{
+	background:white;
+}
+
+textarea, button
+{
+	border:1px solid #aaaaaa;
+	border-radius:3px;
+	padding:0px;
+	margin:0px;
+	background-color:white;
+}
+
+textarea:hover, button:hover, textarea:focus
+{
+	border:1px solid #6666FF;
+	color:#000088;
+}
+
+button:active
+{
+	background-color:#EEEEEE;
+	border:1px solid #4444FF;
+	color:#000066;
+}
+
+#team
+{
+	width:414px;
+	position:absolute;
+	bottom:48px;
+	left:8px;
+	top:8px;
+	padding:8px;
+}
+
+#analyze
+{
+	position:absolute;
+	bottom:8px;
+	height:32px;
+	width:432px;
+	left:8px;
+}
+
+#output
+{
+	position:absolute;
+	top:8px;
+	left:448px;
+	right:8px;
+	bottom:8px;
+	border:1px solid #aaaaaa;
+	border-radius:3px;
+	overflow:auto;
+	overflow-x:hidden;
+	padding:8px;
+	background:white;
+	text-align:center;
+}
+
+#output h1
+{
+	display:inline;
+}
+
+#output div
+{
+	width:100%;
+	max-width:100%;
+}
+
+#typeTable
+{
+	width:100%;
+	border:1px solid #aaaaaa;
+}
+
+#typeTable td, #typeTable th
+{
+	border:1px solid #aaaaaa;
+}
+
+#typeTable th
+{
+	background-color:#222222;
+	color:white;
+}
+
+.Normal
+{
+	background:#F6F6F6;
+}
+
+.Fighting
+{
+	background:#FFCCCC;
+}
+
+.Flying
+{
+	background:#DDEEFF;
+}
+
+.Poison
+{
+	background:#EEBBCC;
+}
+
+.Ground
+{
+	background:#EECC99;
+}
+
+.Rock
+{
+	background:#EECCBB;
+}
+
+.Bug
+{
+	background:#CCFF99;
+}
+
+.Ghost
+{
+	background:#CC99FF;
+}
+
+.Steel
+{
+	background:#CCCCCC;
+}
+
+.Fire
+{
+	background:#FFAA44;
+}
+
+.Water
+{
+	background:#9999FF;
+}
+
+.Grass
+{
+	background:#66EE66;
+}
+
+.Electric
+{
+	background:#FFFF77;
+}
+
+.Psychic
+{
+	background:#FFCCDD;
+}
+
+.Ice
+{
+	background:#AAFFFF;
+}
+
+.Dragon
+{
+	background:#FFCC11;
+}
+
+.Dark
+{
+	background:#8888AA;
+}
+
+.Fairy
+{
+	background:#FFCCFF;
+}
