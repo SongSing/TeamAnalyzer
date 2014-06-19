@@ -88,6 +88,11 @@ button:active
 	color:white;
 }
 
+textarea
+{
+	resize:none;
+}
+
 .Normal
 {
 	background:#F6F6F6;
