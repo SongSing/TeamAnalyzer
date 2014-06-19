@@ -219,6 +219,7 @@ var __pokemon = {"Missingno":{"num":0,"type1":18,"type2":0},"Bulbasaur":{"num":1
 var __types = {0:"Normal",1:"Fighting",2:"Flying",3:"Poison",4:"Ground",5:"Rock",6:"Bug",7:"Ghost",8:"Steel",9:"Fire",10:"Water",11:"Grass",12:"Electric",13:"Psychic",14:"Ice",15:"Dragon",16:"Dark",17:"Fairy",18:"???"};
 
 
+
 var typeTable =
 [
 	"2222212012222222222",
@@ -279,7 +280,7 @@ function analyze()
 		}
 		catch (e)
 		{
-			alert("There was a problem with Pok&eacute;mon #" + (i + 1));
+			alert("There was a problem with Pokémon #" + (i + 1));
 			return;
 		}
 	}
@@ -408,19 +409,6 @@ function analyze()
 		credits:
 		{
 			enabled: false
-		},
-		legend:
-		{
-			layout: 'vertical',
-			align: 'right',
-			verticalAlign: 'top',
-			x: -32,
-			y: -10,
-			floating: true,
-			borderWidth: 1,
-			borderRadius: 4,
-			backgroundColor: "rgba(255,255,255,0.9)",
-			shadow: false
 		},
 		series:
 		[
